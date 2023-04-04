@@ -8,6 +8,11 @@ app.get('/products', function(req, res) {
     res.send('Product List')
 })
 
-app.listen(3000, function() {
+app.get('/cart', function (req, res) {
+    // ................
+    res.send('Cart')
+})
+
+app.listen(3000, function () {
     console.log('Listening on port', 3000)
 })
