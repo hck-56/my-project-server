@@ -5,6 +5,7 @@ app.use(express.urlencoded({ extended: false }))
 app.use(express.json())
 
 app.get('/cart', function (req, res) {
+    // ................
     res.send('Cart')
 })
 
